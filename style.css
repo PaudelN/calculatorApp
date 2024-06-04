@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(39, 100%, 90%);
+}
+
+#container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  width: 30rem;
+  height: 40rem;
+  background-color: hsla(0, 0%, 0%, 0.882);
+  border-radius: 10px 10px 2px 2px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+button {
+  margin: 4px;
+  width: 80px;
+  height: 80px;
+  border-radius: 35%;
+  font-size: 40px;
+  background-color: hsl(0, 0%, 50%);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(0, 0%, 60%);
+}
+button:active {
+  background-color: hsl(0, 0%, 75%);
+}
+
+#display {
+  text-align: right;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 5rem;
+  border: 1px solid;
+  width: 98.9%;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: hsl(0, 0%, 50%);
+
+  color: white;
+}
+
+.function-btn {
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(39, 100%, 50%);
+  color: aliceblue;
+}
+
+.function-btn:hover {
+  background-color: hsl(39, 100%, 60%);
+  color: aliceblue;
+}
+
+.function-btn:active {
+  background-color: hsl(39, 100%, 70%);
+  color: aliceblue;
+}
